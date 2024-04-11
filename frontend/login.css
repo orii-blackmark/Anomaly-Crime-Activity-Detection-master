@@ -11,7 +11,7 @@ body {
 }
 .container {
   width: 350px;
-  height: 50vh;
+  min-height: 50vh;
   border-radius: 20px;
   margin: auto;
   padding: 10px;

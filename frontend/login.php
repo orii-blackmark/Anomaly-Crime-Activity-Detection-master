@@ -18,10 +18,18 @@ if(isset($_POST["login"])){
             // Set session variable
             $_SESSION["email"] = $email;
 
-            echo '<script>alert("Login successful");</script>';
-            // Redirect to index.php
-            header("Location: index.php");
-            exit; 
+            // Check if the user is an admin
+            if($email == 'admin@admin.com' && $password == 'admin') {
+                echo '<script>alert("Admin login successful");</script>';
+                // Redirect to admin.php
+                header("Location: admin.php");
+                exit;
+            } else {
+                echo '<script>alert("Login successful");</script>';
+                // Redirect to index.php for regular users
+                header("Location: index.php");
+                exit;
+            }
         } else {
             echo '<script>alert("Email or password is invalid. Please try again.");</script>';
         }
@@ -30,6 +38,7 @@ if(isset($_POST["login"])){
     }
 }
 ?>
+
 
 
 

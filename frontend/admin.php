@@ -35,8 +35,11 @@ if(isset($_GET["logout"])) {
 
 <body>
     <div class="menubar">
-        <div class="logo">ORIELX CRIME DETECTION SYSTEM</div>
+        <div class="logo">ORIELX CRIME DETECTION SYSTEM ADMIN PANEL</div>
         <div class="account">
+            <div class="adduser">
+                <a href="adduser.php">Add User</a>
+            </div>
             <div class="areacode">Nakuru Central</div>
             <div class="login">
                 <a href="index.php?logout=true">Log out</a>

@@ -27,6 +27,14 @@ body {
   flex-direction: row;
   margin-right: 10px;
 }
+
+.menubar .account .adduser a {
+  text-decoration: none;
+  color: rgb(27, 152, 111);
+}
+.menubar .account .adduser a:hover {
+  color: rgb(18, 77, 58);
+}
 .menubar .account .areacode {
   font-size: 14px;
   margin: 0 10px;
