@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  bornder: solid green;
+  display: flex;
+  height: 100vh;
+  font-family: "poppins", sans-serif;
+}
+.container {
+  width: 350px;
+  height: 50vh;
+  border-radius: 20px;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 3px 10px 22px 6px rgba(0, 0, 0, 0.5);
+}
+.container h3 {
+  border-bottom: solid 1px grey;
+  font-size: 23px;
+  font-weight: 600;
+  margin: 0 40px;
+  margin-bottom: 20px;
+}
+.container .inputs {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 5px;
+}
+.container .inputs label {
+  font-weight: 500;
+}
+.container .inputs input {
+  border: none;
+  height: 40px;
+  background: #e4e4e4;
+  outline: none;
+  font-size: 17px;
+  padding: 0 7px;
+  border-radius: 5px;
+}
+.container .submit {
+  border: none;
+  margin-top: 20px;
+}
+.container .submit input {
+  border: none;
+  outline: none;
+  width: 70%;
+  height: 35px;
+  border-radius: 20px;
+  background: rgb(13, 80, 89);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.container .submit input:hover {
+  font-size: 19px;
+  background: transparent;
+  color: rgb(13, 80, 89);
+  font-weight: 600;
+  border: solid 3px rgb(13, 80, 89);
+}

@@ -1,0 +1,19 @@
+Essential Elements:
+
+    Type of Crime: Identify the criminal activity occurring in the footage (e.g., theft, assault, robbery, vandalism).
+    Time of Day:Note the approximate time the crime took place based on the video.
+    Location: Describe the location where the crime happened (street address, specific area within a building if applicable).
+
+Scene Details:
+
+    Number of Perpetrators: Count the individuals involved in the criminal act.
+    Weapons: Identify any weapons used during the crime (knives, guns, etc.).
+    Vehicles: Note the presence of any vehicles involved (make, model, color, license plate if possible).
+    Property Damage: Describe any damage caused to property during the crime (broken windows, forced entry).
+    Direction of Travel: Note the direction the suspect(s) fled the scene.
+
+Additional Observations:
+
+    Sequence of Events: Briefly describe the chronological order of events captured in the footage.
+    Presence of Bystanders: Note the presence of any bystanders who might be potential witnesses.
+    Unique Features: Mention any distinctive elements in the scene that could aid in identification (graffiti markings, signage, unusual background features).

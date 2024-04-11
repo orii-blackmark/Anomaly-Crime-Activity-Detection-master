@@ -1,0 +1,12 @@
+data/
+Resources
+.env
+.ipynb_checkpoints
+__pycache__
+weights
+database
+lightning_logs
+.vscode
+wandb
+temp
+models/EfficientNetv2/AutoEncoder1.py

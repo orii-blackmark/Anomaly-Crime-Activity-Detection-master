@@ -1,0 +1,17 @@
+# Usage: pip install -r requirements.txt
+numpy
+opencv-python
+pillow
+pyYAML
+tqdm
+gdown
+ipython 
+scikit-image
+uuid
+seaborn
+flask
+ray_lightning
+onnx
+tensorrt
+wandb
+timm
